@@ -118,7 +118,7 @@ data <- data[order(`Town/County`, Year, -`Unit Type`, `Measure Type`, Variable)]
 
 write.table(
     data,
-    file.path("data", "single-housing-units-2016.csv"),
+    file.path("data", "single-housing-units-2018.csv"),
     sep = ",",
     row.names=F,
     na = "-9999"
